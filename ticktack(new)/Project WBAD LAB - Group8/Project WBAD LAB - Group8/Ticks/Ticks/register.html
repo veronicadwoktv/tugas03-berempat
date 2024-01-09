@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./register.js" defer></script>
+</head>
+<body>
+
+    <!-- REGISTER -->
+
+    <div class ="register">
+        <h2>REGISTER</h2>
+        <form id="form" action="#" method="post">
+            <div class="container-register">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Input your Name">
+            </div>
+
+            <div class="container-register">
+                <label for="male">Gender</label>
+                <div>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male<label>
+
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="container-register">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Input your Email">
+            </div>
+
+            <div class="container-register">
+                <label for="Phone Number">Phone Number</label>
+                <input type="text" name="Phone Number" id="Phone Number" placeholder="Input your Phone Number">
+            </div>
+
+            <div class="container-register">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Input your Password">
+            </div>
+
+            <div>
+                <label for="TaC">Agree to terms and condition</label>
+                <input type="checkbox" id="TaC">
+            </div>
+
+            <input class="button-register" type="submit" value="Register">
+            <br>             
+        </form>
+        <div class="error-box" id="errorBox"></div>
+    </div>
+
+    
+    <!-- FOOTER  -->
+    
+</body>
+</html>

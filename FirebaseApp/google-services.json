@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "220733325244",
+    "firebase_url": "https://fir-app-a52a8-default-rtdb.firebaseio.com",
+    "project_id": "fir-app-a52a8",
+    "storage_bucket": "fir-app-a52a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220733325244:android:3590b198c296595506b5b9",
+        "android_client_info": {
+          "package_name": "com.ayyalls.firebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYq2rxsoqggun47PFxhAaIG6fZ8wp-098"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

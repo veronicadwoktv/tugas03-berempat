@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Detail</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <img class="logo" src="Assets/logo ticktack.png" alt="">
+        <ul>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+
+            <li>
+                <a href="aboutus.html">About Us</a> 
+            </li>
+
+            <li>
+                <a href="tickets.html">Tickets</a>
+            </li>
+                   
+            <li class="nav-right">
+                <div class="dropdown">
+                    <button class="dropbtn">Log In
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Admin</a>
+                      <a href="#">Customer</a>
+                    </div>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="background-orderDetail">
+
+    <!-- BACK BUTTON -->
+    <div class="return-button">
+        <a href="honneTicketDetail.html">
+            <img src="Assets/return.png" alt="">
+        </a>
+        <h2>Order Detail</h2>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="orderDetail-container">
+        <div class="orderDetail-container-left">
+            <h2>Selected Package</h2>
+            <div class="selectedPackage">
+                <img src="Assets/Header Konser - 1.jpg" alt="">
+                <h4>Festival B</h4>
+                <p>The ticket price excludes tax</p>
+                <h3>Rp 1.428.000</h3>
+
+                <div class="selectedPackage-detail">
+                    <img src="Assets/location.png" alt="">
+                    <p>Beach City International Stadium, Jakarta, Indonesia</p>
+                </div>
+    
+                <div class="selectedPackage-detail">
+                    <img src="Assets/time.png" alt="">
+                    <p>19:00 - 21:00 WIB</p>
+                </div>
+    
+                <div class="selectedPackage-detail">
+                    <img src="Assets/date.png" alt="">
+                    <p>07 July, 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="orderDetail-container-right">
+            <h2>Price Detail</h2>
+
+            <div class="priceDetail-info">
+                <div class="priceDetail-left">
+                    <p>Total Ticket Price</p>
+                    <p>Service Fee</p>
+                    <p>Tax</p>
+                    <p>Total</p>
+                </div>
+    
+                <div class="priceDetail-right">
+                    <p>Rp 1.428.000</p>
+                    <p>Rp 28.560</p>
+                    <p>Rp 214.200</p>
+                    <p>Rp 1.642.200</p>
+                </div>
+
+            </div>
+
+            <div class="paymentMethod">
+            <h2>Payment Method</h2>
+
+                <div class="paymentMethod-detail">
+                    <div class="paymentMethod-cashless">
+                        <img src="Assets/logo bca.png" alt="">
+                    </div>
+
+                    <div class="paymentMethod-cashless">
+                        <img src="Assets/logo bri.png" alt="">
+                    </div>
+
+                    <div class="paymentMethod-cashless">
+                        <img src="Assets/logo mandiri.png" alt="">
+                    </div>
+
+                    <div class="paymentMethod-cashless">
+                        <img src="Assets/logo dana.png" alt="">
+                    </div>
+
+                    <div class="paymentMethod-cashless">
+                        <img src="Assets/logo gopay.png" alt="">
+                    </div>
+
+                    <div class="paymentMethod-cashless">
+                        <img src="Assets/logo link aja.png" alt="">
+                    </div>
+
+                    <div class="paymentMethod-cashless">
+                        <img src="Assets/logo shopeepay.jpg" alt="">
+                    </div>
+
+                </div>               
+            </div>
+
+            <div class="insertPromo">
+                <form action="honneOrderDetail.html" method="post">
+                    <label for="promo">Promo</label>
+                    <input  type="text" name="text" id="text" placeholder="Insert Promo Code Here">  
+            </form>
+            </div>
+
+            <a href="tickets.html">
+                <button class="paymentMethod-button">Payment</button>
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+          <!-- footer  -->
+          <footer>
+            <div class="footer-atas">
+                <div class="footer-1">
+                    <img src="Assets/logo ticktack.png" alt="" width="1000px" height="300px">
+    
+                    <p>Office 88 Kota Kasablanka 9th <br>
+                        Floor Unit L Jl. Casablanca Raya <br>
+                        Kav. 28, Jakarta</p>
+    
+                    <p>Phone: (021) 29475573</p>
+                </div>
+    
+    
+                <div class="footer-2">
+                    <h3>Get Connected</h3>
+                    <input type="text" name="email" id="email" placeholder="Email Adddress">
+    
+                    <div class="footer-2-TnC">
+                        <input type="checkbox" name="TnC" id="TnC">
+                        <label for="TnC" class="TnC">
+                            I would like TickTack to send me information <br>
+                            about the latest events, information and offers.</label>
+                    </div>
+    
+                    <input type="button" value="Subscribe">
+                </div>
+    
+    
+                <div class="footer-3">
+                    <h3>Follow Us</h3>
+    
+                    <a href="https://facebook.com">
+                        <img src="Assets/icon facebook.png" alt="not found">
+                    </a>
+        
+                    <a href="https://instagram.com">
+                        <img src="Assets/icon instagram.png" alt="not found">
+                    </a>
+        
+                    <a href="https://twitter.com">
+                        <img src="Assets/icon twitter.png" alt="not found">
+                    </a>
+    
+                </div>
+    
+    
+                <div class="footer-4">
+                    <h3>Contact Us</h3>
+    
+                    <p>ticktack123@gmail.com</p>
+                </div>
+    
+            </div>
+    
+            <div class="footer-bawah">
+                <div class="footer-bawah-kiri"> 
+                    © 2023 TickTack All Rights Reserved
+                </div>
+    
+                <div class="footer-bawah-kanan"> 
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+            
+                        <li>
+                            <a href="#">Term and Conditions</a> 
+                        </li>
+            
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+    
+    
+    
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="script.js"></script>
+    
+    
+</body>
+</html>
